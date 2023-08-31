@@ -33,10 +33,61 @@ main{
     
 }
 
+.main2 {  display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "main2__caba main2__caba main2__caba main2__caba main2__caba"
+      "main2__cerrito main2__cerrito . main2__charcas main2__charcas"
+      "img img . img2 img2"
+      "img img . img2 img2"
+      "main2__mardelplata main2__mardelplata main2__mardelplata main2__mardelplata main2__mardelplata"
+      "main2__leandro main2__leandro . main2__diagonal main2__diagonal"
+      "img3 img3 . img4 img4"
+      "img3 img3 . img4 img4";
+  }
+  
+  .main2__cerrito { grid-area: main2__cerrito; }
+  
+  .main2__caba { grid-area: main2__caba; }
+  
+  .main2__charcas { grid-area: main2__charcas; }
+  
+  .img { grid-area: img; }
+  
+  .img2 { grid-area: img2; }
+  
+  .main2__mardelplata { grid-area: main2__mardelplata; }
+  
+  .main2__diagonal { grid-area: main2__diagonal; }
+  
+  .main2__leandro { grid-area: main2__leandro; }
+  
+  .img3 { grid-area: img3; }
+  
+  .img4 { grid-area: img4; }
+  
+.main2{
+    margin: auto;
+    text-align: center;
+    color: rgb(195, 222, 40);
+}
+
+.main2 h5{
+    padding: 30px;
+}
+
+  .main2 iframe{
+    width: 25vw;
+}
+
 .footer{
     background-color: rgb(98, 96, 96);
 }
 .footer h2 {
+    padding: 10px;
     font-size: 20px;
     text-align: center;
     color: white;
