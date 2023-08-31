@@ -114,6 +114,18 @@ main{
 justify-content: space-evenly
 }
 
+.main5{
+    text-align: center;
+    display: flex;
+    flex-direction: column
+    
+}
+
+.main5 h1{
+    padding: 40px;
+    color: rgb(195, 222, 40);}
+    
+
 .footer{
     background-color: rgb(98, 96, 96);
 }
