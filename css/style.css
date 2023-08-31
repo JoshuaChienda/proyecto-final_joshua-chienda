@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "titulo primero";
+    src: url('../recursos/fonts/Duhline\ Serif.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -102,6 +107,11 @@ main{
     width: 600px;
     text-align: center;
     margin: auto;
+}
+
+.main4{
+ display: flex;
+justify-content: space-evenly
 }
 
 .footer{
