@@ -148,3 +148,17 @@ justify-content: space-evenly
     text-decoration: none;
     color: white
 }
+
+@media (max-width: 679px){
+    .header__nav {
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "menu"
+          "sucursales"
+          "lafontedeoro"
+          "promocionesbancarias"
+          "contacto"; 
+      }
+}
