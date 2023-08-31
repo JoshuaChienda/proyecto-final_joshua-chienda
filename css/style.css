@@ -83,6 +83,27 @@ main{
     width: 25vw;
 }
 
+.main3{
+    flex-direction: column;
+    align-items: center;
+}
+.main3__historia h1{
+    color: rgb(195, 222, 40);
+    padding: 30px;
+}
+
+.main3__escrito img{
+    width: 700px;
+    width: 60vw;
+    margin: 30px;
+}
+
+.main3__escrito1{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
 .footer{
     background-color: rgb(98, 96, 96);
 }
