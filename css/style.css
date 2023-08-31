@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-header{
-    margin: auto;
-}
 .header__img {
     height: 80px;
 }
@@ -27,4 +24,32 @@ header{
 .header__nav a {
     color: white;
     text-decoration: none;
+}
+
+main{
+    padding: 39px;
+    display: flex;
+    flex-wrap: wrap
+    
+}
+
+.footer{
+    background-color: rgb(98, 96, 96);
+}
+.footer h2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer ol {
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white
 }
